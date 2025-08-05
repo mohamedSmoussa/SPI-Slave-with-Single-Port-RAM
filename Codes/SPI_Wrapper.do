@@ -1,5 +1,5 @@
 vlib work
-vlog SPI_Wrapper.v SPI_Wrapper_Tb.v
+vlog SPI_Wrapper.v SPI_Wrapper_Tb.v SPI.v Single_Port_RAM.v
 vsim -voptargs=+acc work.SPI_Wrapper_Tb
 add wave -color white -height 27 sim:/SPI_Wrapper_Tb/MISO
 add wave -color cyan -height 27 sim:/SPI_Wrapper_Tb/TEST/tx_valid
