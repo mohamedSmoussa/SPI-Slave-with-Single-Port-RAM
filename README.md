@@ -49,7 +49,7 @@ This project implements a fully functional **SPI Slave module** integrated with 
 - Send command `11`
 - Slave sends back stored data
 
----
+
 
 ## ✅ Testbench Overview
 
@@ -58,7 +58,6 @@ This project implements a fully functional **SPI Slave module** integrated with 
 - Stops simulation if any error occurs
 - Asserts `tx_valid` signal for 8 exact clock cycles using a counter
 
----
 
 ## 📊 Encoding Comparison
 
@@ -70,7 +69,6 @@ This project implements a fully functional **SPI Slave module** integrated with 
 
 > **Gray encoding** offers the best setup and hold slack, supporting the highest operating frequency.
 
----
 
 ## 🛠 Tools Used
 
@@ -79,7 +77,6 @@ This project implements a fully functional **SPI Slave module** integrated with 
 - **Language**: Verilog HDL
 - **Target Device**: FPGA (with timing constraints)
 
----
 
 ## 🚦 How to Run
 
@@ -89,7 +86,6 @@ This project implements a fully functional **SPI Slave module** integrated with 
 4. Synthesize using Vivado and analyze reports
 5. Compare timing results for encoding methods
 
----
 
 ## 👤 Author
 
@@ -97,6 +93,3 @@ This project implements a fully functional **SPI Slave module** integrated with 
 - **Email**: [mohamedmouse066@gmail.com](mailto:mohamedmouse066@gmail.com)  
 - **LinkedIn**: [mohamed-s-moussa](https://www.linkedin.com/in/mohamed-s-moussa-ba0993285/)  
 - **GitHub**: [SPI-Slave-with-Single-Port-RAM](https://github.com/mohamedSmoussa/SPI-Slave-with-Single-Port-RAM-)
-
-> **Submitted to:** Eng. Kareem Waseem  
-> **Special thanks to:** Eng. Reem Hamada for support and encouragement
