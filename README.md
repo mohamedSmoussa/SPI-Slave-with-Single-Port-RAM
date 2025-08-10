@@ -20,14 +20,14 @@ This project implements a fully functional **SPI Slave module** integrated with 
 
 | File/Folder          | Description                                      |
 |----------------------|--------------------------------------------------|
-| `SPI_Wrapper.v`      | Top-level module integrating SPI logic and RAM  |
-| `SPI_Protocol.v`     | FSM handling SPI command decoding and control   |
+| `SPI_Wrapper.v`      | Top-level module integrating SPI logic and RAM   |
+| `SPI_Protocol.v`     | FSM handling SPI command decoding and control    |
 | `Single_Port_RAM.v`  | RAM module with separate read/write pointers     |
 | `SPI_Wrapper_Tb.v`   | Testbench with full transaction coverage         |
-| `waveforms/`         | Screenshots of simulated waveforms               |
-| `constraints/`       | Constraints file with debug core included        |
-| `report/`            | Full documentation and synthesis results         |
-| `do_files/`          | Simulation script and signal display setup       |
+| `waveforms`          | Screenshots of simulated waveforms               |
+| `constraints`        | Constraints file with debug core included        |
+| `report`             | Full documentation and synthesis results         |
+| `do_file`            | Simulation script and signal display setup       |
 
 ---
 
